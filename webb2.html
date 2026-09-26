@@ -1,50 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Uppgift 2 - Om mig</title>
 
-<style> p{
-    color: rgb(0, 0, 0);
-    font-size: 20px;
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
 
+        header {
+            background-color: rgb(137, 117, 188);
+            padding: 15px;
+            text-align: center;
+        }
 
-}
-h1 {
-    color: rgb(40, 6, 125);
-    font-size: 30px;
-}
-h2 {
-    color: rgb(53, 36, 97);
-    font-size: 25px;
-}
+        header h1 {
+            color: rgb(40, 6, 125);
+            font-size: 32px;
+            margin: 0 0 10px 0;
+        }
 
-nav {
-    background-color: rgb(137, 117, 188);
-    color: rgb(239, 169, 169);
-    padding: 10px;
-    text-align: center;
-    size: 20px;
-    font-family: Arial, sans-serif;}
-        
-    
+        nav a {
+            color: white;
+            margin: 0 12px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
 
+        nav a:hover {
+            text-decoration: underline;
+        }
 
-</style>
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
 
+        section {
+            background-color: white;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border-left: 5px solid rgb(137, 117, 188);
+        }
 
+        h2, h3 {
+            color: rgb(53, 36, 97);
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        p {
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: rgb(137, 117, 188);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
-<var></var>
-    <nav>
-        <h1>Lär dig känna mig.</h1>
-    </nav>
-    <h3>Vem är jag?</h3>
-<p>Jag heter Mohammed och jag är en elev i Drottning Blanka Nacka i teknik linje.</p>
-<h3>Hur ser jag ut?</h3>
-<p>Jag är 186cm och väger 68kg, jag har toffs som hårstil.</p>
-<h3>lär dig känna mig som person</h3>
-<p>Jag är en person som gillar att lära sig nya saker och hjälpa andra. Jag är också en person som gillar att vara med andra och ha kul.</p>
+
+   
+    <header>
+        <h1>Lär känna mig</h1>
+        <nav>
+            <a href="#vem-ar-jag">Vem är jag?</a>
+            <a href="#utseende">Utseende</a>
+            <a href="#personlighet">Personlighet</a>
+        </nav>
+    </header>
+
+    <
+    <main>
+        <section id="vem-ar-jag">
+            <h3>Vem är jag?</h3>
+            <p>Jag heter Mohammed och jag är en elev på Drottning Blanka Nacka i tekniklinjen.</p>
+        </section>
+
+        <section id="utseende">
+            <h3>Hur ser jag ut?</h3>
+            <p>Jag är 186 cm och väger 68 kg, jag har toffs som hårstil.</p>
+        </section>
+
+        <section id="personlighet">
+            <h3>Lär känna mig som person</h3>
+            <p>Jag är en person som gillar att lära mig nya saker och hjälpa andra. Jag är också en person som gillar att vara med andra och ha kul.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Min webbplats</p>
+    </footer>
+
 </body>
 </html>
